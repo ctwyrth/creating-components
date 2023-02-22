@@ -3,19 +3,19 @@ import './App.css';
 // import Main from './components/Main';
 // import Sidebar from './components/Sidebar';
 
-import avatar from './avatar.png';
+// import avatar from './avatar.png';
 
-function Logo(props) {
-   const userPic = <img src={avatar} alt="" />;
-   return userPic;
-}
+// function Logo(props) {
+//    const userPic = <img src={avatar} alt="" />;
+//    return userPic;
+// }
+
+// import Btn from './Btn';
+import ModeToggler from './components/ModeToggler';
 
 function App() {
    return (
-      <div>
-         <h1>Hello World!</h1>
-         <Logo />
-      </div>
+      <ModeToggler />
    )
 }
 
