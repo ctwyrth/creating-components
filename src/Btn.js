@@ -11,11 +11,11 @@ import React from 'react'
 // export default Btn;
 
 function Btn() {
-   const clickHandler = () => console.log('mouse over');
+  const clickHandler = () => console.log('mouse over');
 
-   return (
-      <button onMouseOver={clickHandler}>Click Me</button>
-   );
+  return (
+    <button onMouseOver={clickHandler}>Click Me</button>
+  );
 }
 
 export default Btn;

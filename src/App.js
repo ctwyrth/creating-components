@@ -14,9 +14,9 @@ import './App.css';
 import ModeToggler from './components/ModeToggler';
 
 function App() {
-   return (
-      <ModeToggler />
-   )
+  return (
+    <ModeToggler />
+  )
 }
 
 export default App;

@@ -1,17 +1,17 @@
 import React from 'react';
 
 const Sidebar = (props) => {
-   const asideStyle = {
-      background: "azure",
-      width: "calc(30% - 10px)",
-      marginLeft: "10px",
-   }
+  const asideStyle = {
+    background: "azure",
+    width: "calc(30% - 10px)",
+    marginLeft: "10px",
+  }
 
-   return (
-      <aside style={asideStyle} className="sidebar-component">
-         <h2>Sidebar component here</h2>
-      </aside>
-   )
+  return (
+    <aside style={asideStyle} className="sidebar-component">
+        <h2>Sidebar component here</h2>
+    </aside>
+  )
 }
 
 export default Sidebar;
